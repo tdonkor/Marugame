@@ -1,0 +1,56 @@
+<div class="page--banners flex full">
+  <button class="slideshow-banner" [attr.aria-label]="'SSV Banner'">
+    <ng-container *ngIf="bannersService.showBanner">
+      <img *ngIf="bannersService.isCurrentBannerImage" class="slideshow__item full" [src]="bannersService.currentBannerSrc"/>
+      <video *ngIf="bannersService.isCurrentBannerVideo" class="slideshow__item full" [src]="bannersService.currentBannerSrc" type="video/webm" autoplay muted loop></video>
+    </ng-container>
+  </button>
+
+<!--  <div class="slideshow__content">-->
+<!--    <button *ngIf="isTouchToOrderButtonVisible" class="ui-button secondary x-large iconRight" [attr.aria-label]="'Button: Touch To Order'">-->
+<!--      <span class="ui-button__wrapper">-->
+<!--        <svg class="lib-icon size&#45;&#45;20 ml&#45;&#45;20">-->
+<!--          <use href="#lib-icon&#45;&#45;chevron-right"></use>-->
+<!--        </svg>-->
+<!--        <span>{{ '15' | dotTranslate }}</span>-->
+<!--      </span>-->
+<!--    </button>-->
+<!--  </div>-->
+
+<!--  <acr-payment-logos></acr-payment-logos>-->
+<!--  <acr-status></acr-status>-->
+<!--</div>-->
+
+
+<!--<div class="page&#45;&#45;banners flex full">-->
+<!--&lt;!&ndash;  <img class="c-logo" src="/assets/images/white&#45;&#45;text.svg" alt="logo">&ndash;&gt;-->
+<!--  <button class="slideshow-banner" [attr.aria-label]="'SSV Banner'">-->
+<!--    <ng-container *ngIf="bannersService.showBanner">-->
+<!--      &lt;!&ndash;      <img class="slideshow__item full" src="/assets/shared/assets/Banners/burger.png" />&ndash;&gt;-->
+<!--      <img *ngIf="bannersService.isCurrentBannerImage" class="slideshow__item full" [src]="bannersService.currentBannerSrc"/>-->
+<!--    </ng-container>-->
+<!--  </button>-->
+
+  <div class="drop-shadow-rapper">
+<!--    <div class="chick-icon">-->
+<!--      <img src="/assets/images/white&#45;&#45;text.svg" alt="logo-text">-->
+<!--    </div>-->
+    <div class="tap-text">
+      <span>TAP TO ORDER</span>
+    </div>
+  </div>
+
+  <!-- <div class="slideshow__content">
+    <button *ngIf="isTouchToOrderButtonVisible" class="ui-button secondary x-large iconRight" [attr.aria-label]="'Button: Touch To Order'">
+      <span class="ui-button__wrapper">
+        <svg class="lib-icon size--20 ml--20">
+          <use href="#lib-icon--chevron-right"></use>
+        </svg>
+        <span>{{ '15' | dotTranslate }}</span>
+      </span>
+    </button>
+  </div> -->
+
+  <!-- <acr-payment-logos></acr-payment-logos> -->
+  <acr-status></acr-status>
+</div>

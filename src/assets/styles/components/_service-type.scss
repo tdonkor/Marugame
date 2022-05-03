@@ -1,0 +1,113 @@
+// Service Type Specific Styles
+.service-types {
+  .service-type {
+    border-radius: 20rem;
+    background: var(--secondary);
+    filter: var(--shadow-filter);
+    height: 100%;
+    width: 100%;
+    padding: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 20rem;
+    position: relative;
+    border: 4rem solid var(--beni); //Changed by TD
+
+
+    img {
+      margin: auto;
+      align-self: center;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      width: 100%;
+
+
+      h3 {
+        line-height: 1.1;
+        font-size: 46rem;
+        color: var(--beni); // Added by TD
+      }
+    }
+  }
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20rem;
+  }
+
+  .language {
+    transition: all 150ms ease-in;
+    filter: var(--shadow-filter);
+    opacity: 0.3;
+
+    .language--icon {
+      border-radius: 50%;
+      width: 72rem;
+      height: 72rem;
+      border: 4rem solid var(--white);
+    }
+
+    &.active {
+      transform-origin: center center;
+      transform: scale(1.3);
+      opacity: 1;
+      filter: none;
+
+      .language--icon {
+        border: 4rem solid var(--beni); //Changed by TD
+      }
+    }
+  }
+}
+
+.page--service-type {
+  .footer__body {
+    background: var(--beni); // Added by TD
+  }
+
+  .payment-logos {
+    justify-content: flex-end;
+    right: 0;
+    top: 0;
+  }
+  .top {
+    background: var(--beni); // Added by TD
+  }
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--secondary);
+
+ .logo {
+   margin: 10px;
+   height: 150px;
+   Width: 150px;
+ }
+  .title {
+    font-size: 170rem;
+    color: var(--beni); // Added by TD
+  }
+
+  .subtitle {
+    font-size: 54rem;
+    color: var(--beni); // Added by TD
+  }
+}

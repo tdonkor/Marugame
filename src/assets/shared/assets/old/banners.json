@@ -1,0 +1,59 @@
+[
+  {
+    "ID": 1,
+    "Name": "New Banner",
+    "Image": "ezgif-2-9efdfa697c.mp4",
+    "Active": true,
+    "Interval": 5000,
+    "Order": 1,
+    "Skin": "FullHD",
+    "BannerType": "Slide",
+    "Avlb": null
+  },
+	{
+    "ID": 2,
+    "Name": "New Banner",
+    "Image": "LandingPage-Mobile-3mbps.mp4",
+    "Active": true,
+    "Interval": 5000,
+    "Order": 1,
+    "Skin": "FullHD",
+    "BannerType": "Slide",
+    "Avlb": null
+  },
+  {
+    "ID": 3,
+    "Name": "New Banner",
+    "Image": "marugame-banner1.png",
+    "Active": true,
+    "Interval": 5000,
+    "Order": 1,
+    "Skin": "FullHD",
+    "BannerType": "Slide",
+    "Avlb": null
+  },
+	{
+    "ID": 4,
+    "Name": "New Banner",
+    "Image": "marugame-banner2.png",
+    "Active": true,
+    "Interval": 5000,
+    "Order": 1,
+    "Skin": "FullHD",
+    "BannerType": "Slide",
+    "Avlb": null
+  },
+  {
+    "ID": 5,
+    "Name": "New Banner",
+    "Image": "marugame-banner3.png",
+    "Active": true,
+    "Interval": 5000,
+    "Order": 1,
+    "Skin": "FullHD",
+    "BannerType": "Slide",
+    "Avlb": null
+  }
+]
+
+
